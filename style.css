@@ -17,7 +17,7 @@ body {
 
   min-height: 100vh;
   overflow: hidden;
-  background-color: #180021;
+  /* background-color: #180021; */
 
   /* height: 100vh; */
 }
@@ -59,4 +59,11 @@ html {
 
 canvas {
   opacity: 1;
+  height: 100%;
+  width: 100%;
+}
+.right {
+  height: 100vh;
+  width: 30rem;
+  background-color: #270235;
 }
