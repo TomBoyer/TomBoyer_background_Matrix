@@ -86,7 +86,7 @@ class Pipe {
   }
 }
 
-function init(quantity, clr, scale = 1) {
+function init(quantity, clr, scale = 3) {
   for (let i = 0; i < quantity; i++) {
     // vitesse de propagation => changer pour plus ou moins rapide
     const speed = Math.random() * 0.8 + 0.9;
